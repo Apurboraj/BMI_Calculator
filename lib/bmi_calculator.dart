@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Import for input formatter
 import 'helper/bmi_chart_helper.dart';
 import 'helper/bmi_meter_helper.dart';
-import 'widgets/input_details_widget.dart';
 
 class BmiCalculator extends StatefulWidget {
   const BmiCalculator({super.key});
@@ -95,11 +94,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 decoration: const InputDecoration(labelText: "Height (in)"),
               ),
             ),
-          //   const SizedBox(width: 50),
-          //   const Text('ft'),
-          //   const SizedBox(width: 10),
-          //   InkWell(
-          //       onTap: () {}, child: const Icon(Icons.arrow_drop_down_outlined))
+            // const SizedBox(width: 50),
+            // const Text('ft'),
+            // const SizedBox(width: 10),
+            // InkWell(
+            //     onTap: () {}, child: const Icon(Icons.arrow_drop_down_outlined))
            ],
         ),
         Row(
